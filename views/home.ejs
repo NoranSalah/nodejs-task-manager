@@ -1,0 +1,91 @@
+<style>
+  html {
+    background-color: #E4E9FD;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: #fff;
+    padding: 20px;
+  }
+
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+  }
+
+  #heading {
+    background-color: #A683E3;
+  }
+
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  form.item {
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  button {
+    margin-left: 100px;
+    min-height: 4px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: #A683E3;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+
+
+
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="box" id="heading">
+      <h1> Task Manager </h1>
+    </div>
+
+    <div class="box">
+      <form action="" method="post">
+
+        <input type="hidden" name="taskName" value=""></input>
+      </form>
+
+        <form class="item" action="" method="">
+          <input type="text" name="" placeholder="New Task" >
+          <button type="submit" name="" value="">+</button>
+        </form>
+        <form class="item" action="" method="">
+          <input type="text" name="" placeholder="Update Task">
+          <button type="submit" name="list" value="">+</button>
+        </form>
+        <form class="item" action="" method="">
+          <input type="text" name="" placeholder="Delete Task">
+          <button type="submit" name="list" value="">-</button>
+        </form>
+    </div>
+
+  </body>
+</html>
